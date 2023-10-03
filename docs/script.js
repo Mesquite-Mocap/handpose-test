@@ -65,6 +65,7 @@ const grid = new controls3d.LandmarkGrid(landmarkContainer, {
 });
 function onResults(results) {
     // Hide the spinner.
+    console.log(results);
     document.body.classList.add('loaded');
     // Update the frame rate.
     fpsControl.tick();
